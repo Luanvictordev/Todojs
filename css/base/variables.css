@@ -1,0 +1,63 @@
+:root {
+  /* =========================================
+     PALETA DE CORES (Dark Slate / Monocromático)
+     ========================================= */
+  
+  /* Superfícies & Fundos (Hierarquia de profundidade) */
+  --bg-app: #090a0f;           /* Fundo da aplicação */
+  --bg-surface: #11131a;       /* Cards, modais e containers */
+  --bg-surface-hover: #171a23; /* Hover em linhas e cards */
+  --bg-subtle: #1c202c;        /* Fundo de inputs, badges e chips */
+  
+  /* Linhas e Contornos */
+  --border-subtle: #1f2430;    /* Divisores discretos */
+  --border-default: #2a3142;   /* Bordas de inputs e botões secundários */
+  --border-focus: #4b5563;     /* Foco sutil */
+
+  /* Tipografia (Escala de contraste) */
+  --text-primary: #f8fafc;     /* Títulos e texto principal (alto contraste) */
+  --text-secondary: #94a3b8;   /* Legendas, placeholders e datas */
+  --text-muted: #64748b;       /* Tarefas concluídas e ícones inativos */
+
+  /* Cores de Destaque e Ações */
+  --accent-primary: #ffffff;   /* Botão primário clean (fundo branco, texto escuro) */
+  --accent-primary-text: #090a0f;
+  
+  /* Acentos de Status (Desaturados para não quebrar o tom elegante) */
+  --status-success: #10b981;   /* Concluído / Checkbox ativo */
+  --status-danger: #f43f5e;    /* Excluir / Erro */
+  --status-priority-high: #fb7185;
+  --status-priority-med: #fbbf24;
+  --status-priority-low: #38bdf8;
+
+  /* =========================================
+     TIPOGRAFIA
+     ========================================= */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --font-xs: 0.75rem;    /* 12px */
+  --font-sm: 0.875rem;   /* 14px */
+  --font-base: 1rem;     /* 16px */
+  --font-lg: 1.125rem;   /* 18px */
+  --font-xl: 1.5rem;     /* 24px */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  /* =========================================
+     ESPAÇAMENTOS & GEOMETRIA
+     ========================================= */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* Sombras sutis com leve dispersão */
+  --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--border-subtle);
+  --shadow-glow: 0 0 15px rgba(255, 255, 255, 0.05);
+
+  /* Transições suaves */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+}
